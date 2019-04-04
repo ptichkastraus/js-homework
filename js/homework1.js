@@ -23,3 +23,16 @@ m = Math.abs(10 - m);
 n = Math.abs(10 - n);
 res = (n > m) ? "m ближе к 10" : "n ближе к 10 или они равноудалены";
 console.log(res);
+
+let x = 5, y = 3, temp;
+(x > y) ? temp = y : y;
+(x > y) ? y = x : y;
+(x === y) ? x = temp : x;
+console.log('item x' + '' + '=' + x);
+console.log('item y' + ' ' + '=' + y);
+
+x = x + y;
+y = x - y;
+x = x - y;
+
+console.log(x, y);
