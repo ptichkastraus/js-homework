@@ -1,0 +1,58 @@
+input:required:valid {
+    border-color: green;
+}
+
+input:required:invalid{
+    border-color: red;
+}
+
+form {
+    max-width:500px;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+
+}
+
+fieldset{
+    border: 1px solid darkblue ;
+    padding: 20px;
+    background: violet;
+}
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+}
+.submit {
+    width: 200px;
+    margin: 20px auto;
+    color: indigo;
+}
+
+input {
+    margin: 5px;
+    padding: 3px;
+    outline: none;
+    border: 1px solid #333333;
+    border-radius: 3px;
+}
+
+.errorText {
+    display: none;
+    color: red;
+    font-style: italic;
+}
+#valid {
+    padding-top: 10px;
+    display: none;
+    color: green;
+    font-style: italic;
+}
+#error {
+    padding-top: 10px;
+    display: none;
+    color: red;
+    font-style: italic;
+}

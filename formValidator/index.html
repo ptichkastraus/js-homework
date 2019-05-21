@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<form name="someForm">
+  <legend>Введите данные</legend>
+  <fieldset>
+    <p>
+    <input class="validate" name="login" type="text" placeholder="login" required>
+    </p>
+    <p>
+    <input class="validate" name="pwd" type="password" placeholder="password" required>
+    </p>
+    <p>
+      <input class="validate" name="email" placeholder="e-mail" required>
+    </p>
+    <p id="error">Проверьте правильность введеных данных</p>
+    <p id="valid">Форма успешно добавлена</p>
+   <input class="submit" type="submit" value="Send">
+   </fieldset>
+</form>
+
+<script src="js/index1.js"></script>
+</body>
+</html>
